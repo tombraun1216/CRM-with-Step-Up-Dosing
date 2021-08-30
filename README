@@ -1,0 +1,10 @@
+This repository contains three folders of R code related to the manuscript 
+"Extending the Continual Reassessment Method To Accommodate Within-Patient Step-Up Dosing" by Braun and Mercier
+
+The folder "CRM-SUP" corresponds to the new CRM with Step-Up Dosing design proposed in the manuscript
+
+The folder "Braun Triangle" corresponds to a comparitor method first proposed in Braun, T. M., Yuan, Z., and Thall, P. F. (2005), 
+"Determining a maximum tolerated schedule of a cytotoxic agent", Biometrics 61, 335–343.
+
+The folder "Gunhan PK" corresponds to a comparitor method proposed in Gunhan, B. K. and Friede, S. W. T. (2020),
+"A Bayesian time-to-event pharmacokinetic model for phase I dose-escalation trials with multiple schedules", Statistics in Medicine 39, 3986–4000.
