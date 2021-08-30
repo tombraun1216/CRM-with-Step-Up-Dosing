@@ -19,4 +19,5 @@ This repository contains three folders of R code related to the manuscript
    There is one additional file in the "CRM-SUP" folder called "run_integ.R" which contains the code necessary to run 
    the integral approximation methods used to compute posterior moments.
 
-   The "CRM-SUP" folder also contains a sub-folder "Alternate Sims" which contains R programs used to generate the operating characteristics in Table 4 of the manuscript, which examine the sensitivity of the proposed methods to changes in design parameters.
+   The "CRM-SUP" folder also contains a sub-folder "Alternate Sims" which contains R programs used to generate the operating characteristics
+   in Table 4 of the manuscript, which examine the sensitivity of the proposed methods to changes in design parameters.
