@@ -8,3 +8,11 @@ The folder "Braun Triangle" corresponds to a comparitor method first proposed in
 
 The folder "Gunhan PK" corresponds to a comparitor method proposed in Gunhan, B. K. and Friede, S. W. T. (2020),
 "A Bayesian time-to-event pharmacokinetic model for phase I dose-escalation trials with multiple schedules", Statistics in Medicine 39, 3986–4000.
+
+Within each folder are a series of files using the same nomenclature:
+    "tools.R" = contains peripheral functions used by the design
+    "setup.R" = contains code to define values for all design parameters used in a scenario
+    "onesim.R" = contains code to execute one simulated clinical trial for one specific scenario
+    "one_scen.R" = contains code to excute multiple simulated clinical trials for one specific scenario
+    "all_scen.R" = contains code to execute multiple simulations for each of several scenarios
+
