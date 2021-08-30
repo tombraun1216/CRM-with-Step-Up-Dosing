@@ -1,18 +1,23 @@
 This repository contains three folders of R code related to the manuscript 
 "Extending the Continual Reassessment Method To Accommodate Within-Patient Step-Up Dosing" by Braun and Mercier
 
-The folder "CRM-SUP" corresponds to the new CRM with Step-Up Dosing design proposed in the manuscript
+   The folder "CRM-SUP" corresponds to the new CRM with Step-Up Dosing design proposed in the manuscript
 
-The folder "Braun Triangle" corresponds to a comparitor method first proposed in Braun, T. M., Yuan, Z., and Thall, P. F. (2005), 
-"Determining a maximum tolerated schedule of a cytotoxic agent", Biometrics 61, 335–343.
+   The folder "Braun Triangle" corresponds to a comparitor method first proposed in Braun, T. M., Yuan, Z., and Thall, P. F. (2005), 
+   "Determining a maximum tolerated schedule of a cytotoxic agent", Biometrics 61, 335–343.
 
-The folder "Gunhan PK" corresponds to a comparitor method proposed in Gunhan, B. K. and Friede, S. W. T. (2020),
-"A Bayesian time-to-event pharmacokinetic model for phase I dose-escalation trials with multiple schedules", Statistics in Medicine 39, 3986–4000.
+   The folder "Gunhan PK" corresponds to a comparitor method proposed in Gunhan, B. K. and Friede, S. W. T. (2020),
+   "A Bayesian time-to-event pharmacokinetic model for phase I dose-escalation trials with multiple schedules", Statistics in Medicine 39, 3986–4000.
 
-Within each folder are a series of files using the same nomenclature:
-    "tools.R" = contains peripheral functions used by the design
-    "setup.R" = contains code to define values for all design parameters used in a scenario
-    "onesim.R" = contains code to execute one simulated clinical trial for one specific scenario
-    "one_scen.R" = contains code to excute multiple simulated clinical trials for one specific scenario
-    "all_scen.R" = contains code to execute multiple simulations for each of several scenarios
+   Within each folder are a series of files using the same nomenclature:
+      "tools.R" = contains peripheral functions used by the design
+      "setup.R" = contains code to define values for all design parameters used in a scenario
+      "onesim.R" = contains code to execute one simulated clinical trial for one specific scenario
+      "one_scen.R" = contains code to excute multiple simulated clinical trials for one specific scenario
+      "all_scen.R" = contains code to execute multiple simulations for each of several scenarios
 
+   There is one additional file in the "CRM-SUP" folder called "run_integ.R" which contains the code necessary to run 
+   the integral approximation methods used to compute posterior moments.
+
+   The "CRM-SUP" folder also contains a sub-folder "Alternate Sims" which contains R programs used to generate the operating characteristics in Table 4 of the manuscript, 
+   which examine the sensitivity of the proposed methods to changes in design parameters.
